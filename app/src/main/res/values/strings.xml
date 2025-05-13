@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Perfil</string>
+    <string name="titulo_detalhes">Detalhes</string>
+    <string name="nome_usuario">Osama</string>
+    <string name="subtitulo_usuario">Sr. UI/UX Designer</string>
+    <string name="email">Email</string>
+    <string name="titulo_email">Email</string>
+    <string name="ligar">Ligar</string>
+    <string name="whatsapp">WhatsApp</string>
+    <string name="favorito">Favorito</string>
+    <string name="oficial">Oficial</string>
+    <string name="pessoal">Pessoal</string>
+    <string name="numero_telefone">Phone number</string>
+    <string name="celular">Mobile</string>
+    <string name="numero_exemplo">(209) 555–0104</string>
+    <string name="equipe">Team</string>
+    <string name="nome_equipe">Projeto Operação da Equipe</string>
+    <string name="liderado_por">Leads by</string>
+    <string name="nome_lider">Darrell Steward</string>
+    <string name="adicionar_contato">Adicionar ao contato</string>
+    <string name="voltar">Voltar</string>
+    <string name="foto_perfil">Foto de perfil</string>
+    <string name="mais">Mais</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="jenny_wilson">Osama</string>
+    <string name="sr_ui_ux_designer">Sr. UI/UX Designer</string>
+    <string name="email_michael_mitc">michael.mitc@example.com</string>
+    <string name="email_michael">michael@example.com</string>
+</resources>
