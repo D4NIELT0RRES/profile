@@ -1,5 +1,6 @@
 package com.example.profile.screens.components
 
+import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowForward
@@ -12,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.profile.R
@@ -51,13 +53,21 @@ fun InformacaoCard(
             )
 
             if (temSeta) {
-                Icon(
-                    imageVector = Icons.Default.ArrowForward,
-                    contentDescription = stringResource(R.string.mais),
-                    tint = Color(0xFF5E35B1),
-                    modifier = Modifier.size(16.dp)
-                )
+                Box(
+                    modifier = Modifier
+                        .size(24.dp)
+                        .background(Color(0xFF5E35B1), shape = androidx.compose.foundation.shape.CircleShape),
+                    contentAlignment = Alignment.Center
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.ArrowForward,
+                        contentDescription = stringResource(R.string.mais),
+                        tint = Color.White,
+                        modifier = Modifier.size(16.dp)
+                    )
+                }
             }
+
         }
 
         Spacer(modifier = Modifier.height(4.dp))
@@ -83,3 +93,4 @@ fun InformacaoCard(
         )
     }
 }
+
